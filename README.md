@@ -20,8 +20,8 @@ Install the package "inquirer" through the following command:
 
 ## Usage
 Open up the application in the terminal and type "node index.js". Follow the prompts and voila! You have your README file.
-![terminal.png](./images/terminal.png)
-![readme_demo.gif](./images/readme_demo.gif)
+- ![terminal.png](./images/terminal.png)
+- ![readme_demo.gif](./images/readme_demo.gif)
 
 
 ## License
