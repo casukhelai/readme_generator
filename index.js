@@ -74,7 +74,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(README, data) {
-    console.log('write: "' + data + '" :write')
     
     // assume not writing to the same file everytime, since parameter is more specific
     fs.writeFile(README, data, (err) =>
@@ -86,7 +85,6 @@ function init() {
     console.log("Welcome to the README.md generator.\nPlease answer the following prompts:");
     inquirer.prompt(questions)
     .then(data => {
-        console.log('init: "' + data + '" :init')
         const info = generateMarkdown(data);
         
         writeToFile("exREADME.md", info);
