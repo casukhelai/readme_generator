@@ -40,7 +40,6 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log('genmd: "' + data + '" :genmd');
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
@@ -71,7 +70,8 @@ function generateMarkdown(data) {
   ${data.testing}
 
   ## Questions
-  If you have any further questions please contact me at ${data.email}. View more of my work at ${data.github}
+  If you have any further questions please contact me at [${data.email}](mailto:${data.email}). View more of my work at [${data.username}](https://github.com/${data.username}).
+  
 
 `;
 
