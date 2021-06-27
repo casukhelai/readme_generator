@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
     
   }
   if (license in badge){
-    return `[![License: ${license}](${badge})](${renderLicenseLink})`;
+    return `[![License: ${license}](${badge[license]})](${renderLicenseLink(license)})`;
   } else 
   // if unlicensed
     return "";
@@ -20,12 +20,12 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   // put the corresponding link w/out parenthesis
-  const link = {
+  return {
     "MIT" : "https://opensource.org/licenses/MIT",
     "GNU v3" : "https://www.gnu.org/licenses/gpl-3.0",
     "Apache 2.0" : "https://opensource.org/licenses/Apache-2.0",
     "Mozilla Public License 2.0" : "https://opensource.org/licenses/MPL-2.0"
-  }
+  }[license]
 }
 
 // TODO: Create a function that returns the license section of README
@@ -33,45 +33,48 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   // This is the block of text about the license
   if(license != "Unlicense"){
-    return `##Licence
+    return `
     This repository is under the [${license}](${renderLicenseLink(license)}).`
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log('genmd: "' + data + '" :genmd');
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
-
-  # ${data.projectTitle}
 
   ## Description
   ${data.description}
 
   ## Table of Contents
-  * Installation(#installInstruct)
-  * Usage(#usageInfo)
-  * Contribution(#contriGuide)
-  * Test Instructions(#testInstruct)
+  * Installation(#installation)
+  * Usage(#usage)
+  * Contribution(#contribution)
+  * Test Instructions(#testing)
   * Question(#questions)
 
   ## Installation
-  ${data.installInstruct}
+  ${data.installation}
 
-  ## Usage Information
-  ${data.usageInfo}
+  ## Usage
+  ${data.usage}
+
+  ## License
+  ${renderLicenseSection(data.license)}
 
   ## Contribution Guidelines
-  ${data.contriGuide}
+  ${data.contribution}
 
   ## Test Instruction
-  ${data.testInstruct}
+  ${data.testing}
 
   ## Questions
-  If you have any further questions please contact me at ${email}. View more of my work at ${github}
+  If you have any further questions please contact me at ${data.email}. View more of my work at ${data.github}
 
 `;
+
 }
 
 module.exports = generateMarkdown;
