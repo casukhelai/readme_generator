@@ -1,19 +1,19 @@
-<!-- # ${projectTitle}
+<!-- # ${data.projectTitle}
 
 ## Description
-${question.description}
+${data.description}
 
 ## Installation Instructions
-${question.installInstruct}
+${data.installInstruct}
 
 ## Usage Information
-${question.usageInfo}
+${data.usageInfo}
 
 ## Contribution Guidelines
-${question.contriGuide}
+${data.contriGuide}
 
 ## Test Instruction
-${question.testInstruct}
+${data.testInstruct}
 
 ## Questions
 If you have any further questions please contact me at ${email}. View more of my work at ${github} -->
