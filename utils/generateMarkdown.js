@@ -50,8 +50,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](##installation)
   * [Usage](##usage)
-  * [Contribution](##contribution)
-  * [Test Instructions](##testing)
+  * [Contribution](##contribution%guidelines)
+  * [Test Instructions](##test%instructions)
   * [Question](##questions)
 
   ## Installation
@@ -66,7 +66,7 @@ function generateMarkdown(data) {
   ## Contribution Guidelines
   ${data.contribution}
 
-  ## Test Instruction
+  ## Test Instructions
   ${data.testing}
 
   ## Questions
