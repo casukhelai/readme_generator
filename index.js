@@ -89,7 +89,7 @@ function init() {
         console.log('init: "' + data + '" :init')
         const info = generateMarkdown(data);
         
-        writeToFile("README.md", info);
+        writeToFile("exREADME.md", info);
     })
 };
 // Function call to initialize app
