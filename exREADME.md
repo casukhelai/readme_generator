@@ -1,9 +1,9 @@
-# hello
+# README Generator Demo
 
-  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: Mozilla Public License 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description
-  world
+  This is a demo to show how the application works.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,22 +14,22 @@
   * [Question](#questions)
 
   ## Installation
-  this
+  npm i inquirer --save
 
   ## Usage
-  is
+  This application is meant to be used to have a template for a readme for your project
 
   ## License
   
-    This repository is under the [Apache 2.0](https://opensource.org/licenses/Apache-2.0).
+    This repository is under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0).
 
   ## Contribution
-  a test
+  This is a demo, no contribution guidelines for this
 
   ## Testing
-  this is a test
+  node index.js
 
   ## Questions
-  If you have any further questions please contact me at [test](mailto:test). View more of my work at [casukhelai](https://github.com/casukhelai).
+  If you have any further questions please contact me at [ishya.casukhela@gmail.com](mailto:ishya.casukhela@gmail.com). View more of my work at [casukhelai](https://github.com/casukhelai).
   
 
