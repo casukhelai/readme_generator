@@ -33,8 +33,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   // This is the block of text about the license
   if(license != "Unlicense"){
-    return `
-    This repository is under the [${license}](${renderLicenseLink(license)}).`
+    return `This repository is under the [${license}](${renderLicenseLink(license)}).`
   }
 }
 
