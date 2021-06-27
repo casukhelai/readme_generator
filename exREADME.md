@@ -1,9 +1,9 @@
-# dsf
+# README Generator Demo
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  dsf
+  This is a demo readme to demonstrate how the application works
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,22 +14,22 @@
   * [Question](#questions)
 
   ## Installation
-  sdf
+  npm i inquirer --save in node.js
 
   ## Usage
-  sd
+  This application is meant to be used as a template readme for your projects
 
   ## License
   
     This repository is under the [MIT](https://opensource.org/licenses/MIT).
 
   ## Contribution
-  fs
+  This is just a demo, no guidelines
 
   ## Testing
-  df
+  to set up testing, type node index.js in terminal
 
   ## Questions
-  If you have any further questions please contact me at [dsf](mailto:dsf). View more of my work at [undefined](https://github.com/undefined).
+  If you have any further questions please contact me at [ishya.casukhelai@gmail.com](mailto:ishya.casukhelai@gmail.com). View more of my work at [undefined](https://github.com/undefined).
   
 
