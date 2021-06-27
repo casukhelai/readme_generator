@@ -50,11 +50,10 @@ const questions = [
             "MIT",
             "GNU v3",
             "Apache 2.0",
-            "BSD 3-Clause",
             "Mozilla Public License 2.0",
             "Unlicense"
         ],
-        name: "licenses",
+        name: "license",
     },
     // Github username
     {
