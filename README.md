@@ -8,10 +8,10 @@ The Professional README generator is a command-line application. My motivation f
 This homework taught me patience in debugging. I had a lot of different issues with function calling and the template literals, it took quite a few tries to understand why the application wouldn't deploy appropriately.
 
 ## Table of Contents
-  * Installation(#installation)
-  * Usage(#usage)
-  * Contribution(#contribution)
-  * Question(#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Question](#questions)
 
 ## Installation
 Install the package "inquirer" through the following command:
@@ -23,7 +23,7 @@ Open up the application in the terminal and type "node index.js". Follow the pro
 - ![terminal.png](./images/terminal.png)
 - ![readme_demo.gif](./images/readme_demo.gif)
 
-
+- YouTube Video: https://www.youtube.com/watch?v=6miy17eUgXQ 
 ## License
 This repository is under the [MIT](https://opensource.org/licenses/MIT) license.
 
